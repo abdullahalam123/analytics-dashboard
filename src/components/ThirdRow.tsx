@@ -3,13 +3,13 @@ import { HiEllipsisHorizontal } from "react-icons/hi2";
 
 const ThirdRow = () => {
   return (
-    <div className=" w-full p-1 h-[41%] ">
+    <div className=" w-full p-1 h-[39%]">
       {/* container */}
       <div className="flex h-full w-full">
         {/* left container */}
         <div className="w-8/12 p-2">
           {/* inner left container */}
-          <div className="border rounded-2xl bg-white p-4">
+          <div className="border rounded-2xl bg-white p-4 ">
             {/* top element container */}
             <div className="flex items-center h-1/6">
               <span className="text-xl font-medium">
@@ -25,9 +25,9 @@ const ThirdRow = () => {
               </div>
             </div>
             {/* bottom element container */}
-            <div className="flex flex-col gap-1.5">
+            <div className="flex flex-col gap-1">
               {/* United States */}
-              <div className="flex mt-7 items-center">
+              <div className="flex mt-1 items-center">
                 <div className="ml-auto">
                   <img
                     className="w-9 h-9 rounded-full"
@@ -130,7 +130,7 @@ const ThirdRow = () => {
             {/* bottom element container */}
             <div className="flex flex-col gap-1">
               {/* Desktop */}
-              <div className="flex mt-5 items-center">
+              <div className="flex mt-1 items-center">
                 <div className="ml-auto items-end  w-[60%] mr-3">
                   <div className="mb-1 flex justify-between items-center">
                     <span className="font-medium text-base">Desktop</span>
@@ -173,8 +173,8 @@ const ThirdRow = () => {
               </div>
               <div className="flex mt-2 items-center">
                 <div className="ml-auto items-end  w-[60%] mr-3">
-                  <div className="mb-1 flex justify-between items-center">
-                    <span className="font-light text-sm text-slate-500 mt-0.5">
+                  <div className=" flex justify-between items-center">
+                    <span className="font-light text-xs text-slate-500 mt-0.5">
                       Your session has increased in the last 7 days especialty
                       on desktop and mobile
                     </span>

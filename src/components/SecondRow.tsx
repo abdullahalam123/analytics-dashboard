@@ -3,12 +3,12 @@ import { IoIosArrowDown } from "react-icons/io";
 const SecondRow = () => {
   return (
     // container
-    <div className="w-full h-[36%] ">
+    <div className="w-full h-[38%] ">
       {/* overview container*/}
       <div className="flex h-full w-full">
         {/* left container */}
         <div className=" w-4/6 p-2">
-          <div className=" bg-white rounded-2xl p-4">
+          <div className=" bg-white rounded-2xl p-4  h-full">
             {/* top item */}
             <div className="flex items-center  h-1/6">
               <span className="text-xl font-medium">Sessions Overview</span>
